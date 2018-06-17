@@ -34,19 +34,14 @@ export const pageQuery = graphql`
           name
           twitter
         }
-        disqusShortname
         url
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
-      fields {
-        tagSlugs
-      }
       frontmatter {
         title
-        tags
         date
         description
       }

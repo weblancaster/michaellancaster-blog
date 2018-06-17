@@ -8,6 +8,7 @@ class IndexRoute extends React.Component {
     const items = [];
     const { title, subtitle } = this.props.data.site.siteMetadata;
     const posts = this.props.data.allMarkdownRemark.edges;
+
     posts.forEach((post) => {
       items.push(<Post data={post} key={post.node.fields.slug} />);
     });
@@ -44,30 +45,24 @@ export const pageQuery = graphql`
         }
         author {
           name
-          email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }
     allMarkdownRemark(
         limit: 1000,
         filter: { frontmatter: { layout: { eq: "post" }, draft: { ne: true } } },
-        sort: { order: DESC, fields: [frontmatter___date] }
+        sort: { order: DESC, fields: [fields___date] }
       ){
       edges {
         node {
           fields {
             slug
-            categorySlug
+            date
           }
           frontmatter {
             title
-            date
-            category
             description
           }
         }

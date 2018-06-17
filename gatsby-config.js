@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
+    url: 'http://www.bymichaellancaster.com',
     title: 'Blog by Michael Lancaster',
     subtitle: 'Software Engineer focused in Javascript applications',
     copyright: '© All rights reserved.',
-    disqusShortname: 'weblancaster',
+    disqusShortname: '#',
     menu: [
       {
         label: 'Articles',

@@ -5,8 +5,10 @@ import './style.scss';
 
 class Post extends React.Component {
   render() {
-    const { title, date, category, description } = this.props.data.node.frontmatter;
-    const { slug, categorySlug } = this.props.data.node.fields;
+    const { title, date, description } = this.props.data.node.frontmatter;
+    const { slug } = this.props.data.node.fields;
+
+    console.log(date)
 
     return (
       <div className="post">
@@ -15,11 +17,6 @@ class Post extends React.Component {
             {moment(date).format('MMMM YYYY')}
           </time>
           <span className="post__meta-divider" />
-          <span className="post__meta-category" key={categorySlug}>
-            <Link to={categorySlug} className="post__meta-category-link">
-              {category}
-            </Link>
-          </span>
         </div>
         <h2 className="post__title">
           <Link className="post__title-link" to={slug}>{title}</Link>

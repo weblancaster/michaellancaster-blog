@@ -4,6 +4,7 @@ const path = require('path');
 const lost = require('lost');
 const pxtorem = require('postcss-pxtorem');
 const slash = require('slash');
+const { createFilePath } = require('gatsby-source-filesystem');
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
@@ -11,8 +12,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     const postTemplate = path.resolve('./src/templates/post-template.jsx');
     const pageTemplate = path.resolve('./src/templates/page-template.jsx');
-    const tagTemplate = path.resolve('./src/templates/tag-template.jsx');
-    const categoryTemplate = path.resolve('./src/templates/category-template.jsx');
 
     graphql(`
     {
@@ -26,9 +25,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               slug
             }
             frontmatter {
-              tags
               layout
-              category
             }
           }
         }
@@ -53,36 +50,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             component: slash(postTemplate),
             context: { slug: edge.node.fields.slug }
           });
-
-          let tags = [];
-          if (_.get(edge, 'node.frontmatter.tags')) {
-            tags = tags.concat(edge.node.frontmatter.tags);
-          }
-
-          tags = _.uniq(tags);
-          _.each(tags, (tag) => {
-            const tagPath = `/tags/${_.kebabCase(tag)}/`;
-            createPage({
-              path: tagPath,
-              component: tagTemplate,
-              context: { tag }
-            });
-          });
-
-          let categories = [];
-          if (_.get(edge, 'node.frontmatter.category')) {
-            categories = categories.concat(edge.node.frontmatter.category);
-          }
-
-          categories = _.uniq(categories);
-          _.each(categories, (category) => {
-            const categoryPath = `/categories/${_.kebabCase(category)}/`;
-            createPage({
-              path: categoryPath,
-              component: categoryTemplate,
-              context: { category }
-            });
-          });
         }
       });
 
@@ -98,30 +65,23 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     const parsedFilePath = path.parse(node.absolutePath);
     const slug = `/${parsedFilePath.dir.split('---')[1]}/`;
     createNodeField({ node, name: 'slug', value: slug });
-  } else if (
-    node.internal.type === 'MarkdownRemark' &&
-    typeof node.slug === 'undefined'
-  ) {
-    const fileNode = getNode(node.parent);
-    let slug = fileNode.fields.slug;
-    if (typeof node.frontmatter.path !== 'undefined') {
-      slug = node.frontmatter.path;
-    }
+  }
+
+  if (node.internal.type === 'MarkdownRemark') {
+    const slug = createFilePath({ node, getNode, basePath: 'pages' });
+    const date = node.frontmatter.date || slug.substring(slug.indexOf('-') - 4, slug.indexOf('-') + 6).replace(/-/g, ' ');
+
     createNodeField({
       node,
       name: 'slug',
       value: slug
     });
 
-    if (node.frontmatter.tags) {
-      const tagSlugs = node.frontmatter.tags.map(tag => `/tags/${_.kebabCase(tag)}/`);
-      createNodeField({ node, name: 'tagSlugs', value: tagSlugs });
-    }
-
-    if (typeof node.frontmatter.category !== 'undefined') {
-      const categorySlug = `/categories/${_.kebabCase(node.frontmatter.category)}/`;
-      createNodeField({ node, name: 'categorySlug', value: categorySlug });
-    }
+    createNodeField({
+      node,
+      name: 'date',
+      value: date
+    });
   }
 };
 
