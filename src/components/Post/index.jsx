@@ -8,8 +8,6 @@ class Post extends React.Component {
     const { title, date, description } = this.props.data.node.frontmatter;
     const { slug } = this.props.data.node.fields;
 
-    console.log(date)
-
     return (
       <div className="post">
         <div className="post__meta">

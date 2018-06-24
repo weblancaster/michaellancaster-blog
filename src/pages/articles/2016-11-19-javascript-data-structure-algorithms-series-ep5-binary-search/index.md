@@ -7,7 +7,7 @@ description: One of the most know and perhaps most used search algorithm. Binary
 
 <div class="intro-series">
     <strong>Be advised!</strong> <br> 
-    This post is part of the series: Data Structures and Algorithms with JS therefore before continuing I suggest you to read <a href="/blog/javascript-data-structure-algorithms-series-ep1/" title="Data Structures and Algorithms Ep.1">the introduction</a> if you haven't read yet. thanks.
+    This post is part of the series: Data Structures and Algorithms with JS therefore before continuing I suggest you to read <a href="/articles/2014-08-06-javascript-data-structure-algorithms-series-ep1/" title="Data Structures and Algorithms Ep.1">the introduction</a> if you haven't read yet. thanks.
 </div>
 
 
@@ -24,7 +24,7 @@ Making Binary Search Log2(n). That's why Binary Search is very efficient even fo
 
 Another take away is that Binary Search requires sorted (ordered) list.
 
-<pre><code data-language="javascript">
+```javascript
 const binarySearch = (list, item) => {
     let low = 0;
     let high = list.length - 1;
@@ -50,6 +50,6 @@ const binarySearch = (list, item) => {
 }
 
 binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 8);
-</code></pre>
+```
 
 Thanks.

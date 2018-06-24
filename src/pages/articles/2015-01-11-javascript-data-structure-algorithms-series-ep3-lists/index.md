@@ -7,7 +7,7 @@ description: Let's get start and see how data structures can help us design bett
 
 <div class="intro-series">
     <strong>Be advised!</strong> <br> 
-    This post is part of the series: Data Structures and Algorithms with JS therefore before continue to read I suggest you <a href="/blog/javascript-data-structure-algorithms-series-ep1/" title="Data Structures and Algorithms Ep.1">the introduction</a> to this series of posts if you haven't read yet. thanks.
+    This post is part of the series: Data Structures and Algorithms with JS therefore before continue to read I suggest you <a href="/articles/2014-08-06-javascript-data-structure-algorithms-series-ep1/" title="Data Structures and Algorithms Ep.1">the introduction</a> to this series of posts if you haven't read yet. thanks.
 </div>
 
 Let's get start and see how data structures can help us design better software solutions...today I'm going to talk briefly about Lists
@@ -44,7 +44,7 @@ So here's our actions.
 
 That being said lets get our hands dirty.
 
-<pre><code data-language="javascript">
+```javascript
 /**
  * List constructor
  * @class List
@@ -281,13 +281,13 @@ List.prototype.debug = function (options) {
         console.log('is empty >>', this.isEmpty() );
     }
 }
-</code></pre>
+```
 
 the code example above show all methods and properties our list need to have and I also added a method call `debug` so we can do some simple debug/log.
 
 Let's create a list of movies and at the end lets use our simple test method
 
-<pre><code data-language="javascript">
+```javascript
 /**
 * Movie list
 */
@@ -324,7 +324,7 @@ movies.debug({
     contains: 'Batman',
     isEmpty: true
 });
-</code></pre>
+```
 
 And this is was the Ep.3 about Data Structures and Algorithms - Lists.
 

@@ -13,7 +13,7 @@ All the bad examples showed here for good or for bad I had the pleasure to work 
 
 ##The bad examples first
 
-<pre><code data-language="css">
+```css
 #header {
 	property: value;
 	property: value;
@@ -38,7 +38,7 @@ All the bad examples showed here for good or for bad I had the pleasure to work 
 	property: value;
 	property: value;
 }
-</code></pre>
+```
 
 Yeah! people still doing this approach specifying "ID's" for every element on the page and that kind of architecture "id's" has no problem for browser rendering or for Javascript developers concerned about performance or make his life easier.
 
@@ -49,7 +49,7 @@ But as a point of view of good CSS architecture that's not DRY, reusable, modula
 My second experience with a different way to write CSS architecture was when I worked as a consultant on a ongoing big Web Application. <br>
 At this point the initial developers started kind of in a "good" way making like a mixed code between SMACSS and their own judgments. <br>
 
-<pre><code data-language="css">
+```css
 ul.button-group-yellow {
 	property: value;
 	property: value;
@@ -74,7 +74,7 @@ ul.button-group-yellow li div p a {
 	property: value;
 	property: value;
 }
-</code></pre>
+```
 
 I confess we had a bunch of modular groups forcing DRY methodology but look at those terrible long descendants selectors (nesting), tag-qualify and this approach is very bad for browser rendering/performance, not scalable and gets/got pretty messy after all.
 
@@ -86,7 +86,7 @@ I confess we had a bunch of modular groups forcing DRY methodology but look at t
 - Avoid tag-qualify.
 - Browsers render your CSS going right to left.
 
-<pre><code data-language="css">
+```css
 #header div ul li p a {
 	/* the browser render/algorithm go through all your elements starting at "a" element to find the matches */
 	property: value;
@@ -118,7 +118,7 @@ header#header {
 	property: value;
 	property: value;
 }
-</code></pre>
+```
 
 - Use DRY (don't repeat yourself methodology), modular groups, scalable, readable and maintainable.
 - Make it well documented (readable for humans not machines).
@@ -128,7 +128,7 @@ header#header {
 - Find the patterns in your design and apply OOCSS method (works great for me).
 - Rule sets in specific order (example how I do it below).
 
-<pre><code data-language="css">
+```css
 /* ==========================================================================
 #   SCSS/COMPASS Modular Project Based.
 # 	@settings ( COMPASS, Variables, Functions, Mixins, etc... )
@@ -175,7 +175,7 @@ header#header {
 @ie
 ========================================================================== */
 @import "_ie";
-</code></pre>
+```
 
 ##Another great tips. From BEM methodology
 
@@ -192,7 +192,7 @@ I always had concern about my classes notation name, how should I name semantica
 
 Example, Let's say we have one module.
 
-<pre><code data-language="css">
+```css
 .promo-box {
 	property: value;
 }
@@ -208,7 +208,7 @@ Example, Let's say we have one module.
 .promo-box-txt {
 	property: value;
 }
-</code></pre>
+```
 
 I even don't need to show you the HTML markup to make you understand the HTML structure, can you see the possibilities here?!
 
@@ -219,7 +219,7 @@ One week before I write this post I saw the speak of <a href="http://nicolasgall
 All made sense. So now on I will use this non-fashionable YET classes notation name but answering the same questions I told you before.<br>
 what are you talking about Michael? Here's a new example of that module above.
 
-<pre><code data-language="css">
+```css
 .promoBox {
 	property: value;
 }
@@ -239,7 +239,7 @@ what are you talking about Michael? Here's a new example of that module above.
 .promoBox--round {
 	property: value;
 }
-</code></pre>
+```
 
 Here we have our module "promoBox", the "promoBox-inner" with one dash means it is a child of "promoBox", the "promoBox-inner-img" means it is child of "promoBox-inner" that it is child of "promoBox" and so on. <br>
 Lastly we have "promoBox--round" with two dashes that means extended/modifier. Beautiful right?!

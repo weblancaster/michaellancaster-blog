@@ -35,7 +35,7 @@ I had no idea if people would use it or not, but today I have 10 thousand plus d
 
 And that's a great feeling when you do something for fun and you end up solving others people problems.
 
-And there's more, I spoke in Brazil about Soundnode App at the biggest conference for front end developers in Brazil (more about it <a href="/blog/speaking-at-front-in-bh-conference-2014/" title="Speaking at FrontInBH">Here</a>), and in Chicago.
+And there's more, I spoke in Brazil about Soundnode App at the biggest conference for front end developers in Brazil (more about it <a href="/articles/2014-07-30-speaking-at-front-in-bh-conference-2014/" title="Speaking at FrontInBH">Here</a>), and in Chicago.
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Thanks to Michael Lancaster (<a href="https://twitter.com/weblancaster">@weblancaster</a>) who is speaking <a href="https://twitter.com/ChicagoWebConf">@ChicagoWebConf</a> on desktop apps with NodeWebkit <a href="http://t.co/lHmOaTltXD">http://t.co/lHmOaTltXD</a> <a href="https://twitter.com/hashtag/cwc2015?src=hash">#cwc2015</a></p>&mdash; JC Grubbs (@thegrubbsian) <a href="https://twitter.com/thegrubbsian/status/550380141550260224">December 31, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -37,38 +37,38 @@ I'm going to assume you have account on Heroku (it's free) and the <a href="http
 
 First of all (after everything installed) create a new folder (whatever-name-you-want) then open your terminal go to your folder and type..
 
-<pre><code data-language="ruby">
+```ruby
 git init
-</code></pre>
+```
 
 then
 
-<pre><code data-language="ruby">
+```ruby
 git add .
-</code></pre>
+```
 
 then
 
-<pre><code data-language="ruby">
+```ruby
 git commit -m "first commit"
-</code></pre>
+```
 
 Now you have git initialized..time to create a Heroku app. <br>
 First thing you need to login to Heroku (remember that we are doing everything from the command line on terminal)
 
-<pre><code data-language="ruby">
+```ruby
 heroku login
-</code></pre>
+```
 
-<pre><code data-language="ruby">
+```ruby
 heroku create name-of-your-app
-</code></pre>
+```
 
 Done! You just need to push your code.
 
-<pre><code data-language="ruby">
+```ruby
 git push
-</code></pre>
+```
 
 You can access your Web App url on www.your-app-name.heroku.com
 
@@ -82,7 +82,7 @@ Oh wait! What is this?
 
 To make your Web App run on Heroku you need to run your Web App in one of those languages I said right on the beginning of this post.
 
-Today we are going to run and deploy a simple Node.js/Express.js Application..since I have been using Heroku and Node.js for all my personal/aside projects I created a Express.js boilerplate to run and deploy fast and easy with <a href="/blog/introduction-to-task-runner-gruntjs/" target="_blank" title="introduction to Grunt.js">Grunt.js</a> included so you can watch for changes on your files to minify CSS and uglify JS. I also included static assets and NO Jade (jade is native on Express.js) so you can code your normal HTML instead of Jade.
+Today we are going to run and deploy a simple Node.js/Express.js Application..since I have been using Heroku and Node.js for all my personal/aside projects I created a Express.js boilerplate to run and deploy fast and easy with <a href="/articles/2013-06-01-introduction-to-task-runner-gruntjs/" target="_blank" title="introduction to Grunt.js">Grunt.js</a> included so you can watch for changes on your files to minify CSS and uglify JS. I also included static assets and NO Jade (jade is native on Express.js) so you can code your normal HTML instead of Jade.
 
 Go to my Github repository <a href="https://github.com/weblancaster/expressjs-static-boilerplate" target="_blank" title="Express.js static boilerplate">Express.js static boilerplate</a> and download the zip file then extract and copy everything has inside of "expressjs-static-boilerplate" folder to your Web App folder.
 
@@ -90,9 +90,9 @@ Go to my Github repository <a href="https://github.com/weblancaster/expressjs-st
 
 After download my boilerplate let's install the dependencies and run our Node.js server
 
-<pre><code data-language="ruby">
+```ruby
 sudo npm install -g
-</code></pre>
+```
 
 Enter your password.
 You should see something like the image below.. notice that not every log is showed on the image..
@@ -105,24 +105,24 @@ You should see something like the image below.. notice that not every log is sho
 
 All Node dependencies are installed and now you can start run your server.
 
-<pre><code data-language="ruby">
+```ruby
 node server.js
-</code></pre>
+```
 
 Or to not need to quit the server "control + c" every time you do any change I also added a monitor to the boilerplate so every time you do your changes and save the monitor you automatically re-run the server.
 
-<pre><code data-language="ruby">
+```ruby
 nodemon server.js
-</code></pre>
+```
 
 ## Running Grunt.js
 
 After install all the Node.js dependencies you can start run your tasks to minify CSS and uglify JS. <br>
 Open a new tab on your terminal and run the command.
 
-<pre><code data-language="ruby">
+```ruby
 grunt build
-</code></pre>
+```
 
 This is the message you should get.
 
@@ -135,9 +135,9 @@ This is the message you should get.
 But still not quite good enough because we would need to build every time we did any change.
 So let's start to watch for changes on the files.
 
-<pre><code data-language="ruby">
+```ruby
 grunt watch
-</code></pre>
+```
 
 Now every time you do any change and save the file grunt you build automatically.
 
@@ -153,17 +153,17 @@ Ok. That's pretty cool right?!.
 
 Now let's push to Heroku and see if it works.
 
-<pre><code data-language="ruby">
+```ruby
 git add .
-</code></pre>
+```
 
-<pre><code data-language="ruby">
+```ruby
 git commit -m "added express boilerplate"
-</code></pre>
+```
 
-<pre><code data-language="ruby">
+```ruby
 git push origin master
-</code></pre>
+```
 
 and this is what happened..
 
@@ -180,9 +180,9 @@ In this case we need a "Procfile". So create a new file named "Procfile" and typ
 
 Then you need to activate your server and tell Heroku to run 1 "Cedar" (one cedar is free hosting).
 
-<pre><code data-language="ruby">
+```ruby
 heroku ps:scale web=1
-</code></pre>
+```
 
 <div class="fluidImg">
 <img src="/assets/images/post-images/cedar.png" alt="no support">

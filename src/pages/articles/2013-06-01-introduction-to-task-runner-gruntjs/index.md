@@ -83,9 +83,9 @@ So let's add to the project GruntJS-app
 
 On your root project folder run the command line
 
-<pre><code data-language="ruby">
+```ruby
 sudo npm install -g grunt-cli
-</code></pre>
+```
 
 Now you have the grunt command line installed globally to your project
 
@@ -93,7 +93,7 @@ Now you have the grunt command line installed globally to your project
 
 the basic structure to configure your Gruntfile.js file is simple.
 
-<pre><code data-language="javascript">
+```javascript
 module.exports = function(grunt) {
 
 	grunt.initConfig({
@@ -101,7 +101,7 @@ module.exports = function(grunt) {
 	});
 
 }
-</code></pre>
+```
 
 ## Configuring the package.json
 
@@ -119,7 +119,7 @@ You can add tons of information on you package json and you can check all inform
 		"grunt": "~0.4.1"
 	}
 }
-</code></pre>
+```
 
 ## Adding plugins to use as task
 
@@ -129,19 +129,19 @@ Now on you wont need to go manually to package.json to add the plugins as devDep
 
 First let's install Uglify
 
-<pre><code data-language="ruby">
+```ruby
 npm install grunt-contrib-uglify --save-dev
-</code></pre>
+```
 
 And enable the plugin inside of Gruntfile.js
 
-<pre><code data-language="javascript">
+```javascript
 grunt.loadNpmTasks('grunt-contrib-uglify');
-</code></pre>
+```
 
 Now Gruntfile.js looks like this
 
-<pre><code data-language="javascript">
+```javascript
 module.exports = function(grunt) {
 
 	grunt.initConfig({
@@ -151,23 +151,23 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 
 }
-</code></pre>
+```
 
 Install htmlmin
 
-<pre><code data-language="ruby">
+```ruby
 npm install grunt-contrib-htmlmin --save-dev
-</code></pre>
+```
 
 Enable the plugin
 
-<pre><code data-language="javascript">
+```javascript
 grunt.loadNpmTasks('grunt-contrib-htmlmin');
-</code></pre>
+```
 
 Now Gruntfile.js looks like this
 
-<pre><code data-language="javascript">
+```javascript
 module.exports = function(grunt) {
 
 	grunt.initConfig({
@@ -178,13 +178,13 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
 }
-</code></pre>
+```
 
 ## Setting the tasks
 
 On your Gruntfile.js you will define the configuration for your tasks (check out the plugins documentation for configuration) as should be and the task register.
 
-<pre><code data-language="javascript">
+```javascript
 module.exports = function(grunt) {
 
 	grunt.initConfig({
@@ -219,25 +219,25 @@ module.exports = function(grunt) {
 	grunt.registerTask('build', ['htmlmin', 'uglify']);
 
 }
-</code></pre>
+```
 
 ## Running the tasks
 
 Make sure you have all the npm installed
 
-<pre><code data-language="ruby">
+```ruby
 npm install
-</code></pre>
+```
 
 Run the task
 
-<pre><code data-language="ruby">
+```ruby
 grunt build
-</code></pre>
+```
 
 Done! This is what you should have as a response.
 
-<pre><code data-language="ruby">
+```ruby
 Running "htmlmin:dist" (htmlmin) task
 File dist/index.html created.
 File dist/internal.html created.
@@ -246,7 +246,7 @@ Running "uglify:my_target" (uglify) task
 File "assets/js/app.min.js" created.
 
 Done, without errors.
-</code></pre>
+```
 
 ## Adding and configuring watch
 
@@ -254,23 +254,23 @@ Remember "no waste of time" with repetitive tasks right? so to not need run "gru
 
 Install watch
 
-<pre><code data-language="ruby">
+```ruby
 npm install grunt-contrib-watch --save-dev
-</code></pre>
+```
 
 Enable the plugin and configure the watch task
 
-<pre><code data-language="javascript">
+```javascript
 grunt.loadNpmTasks('grunt-contrib-watch');
 
 grunt.event.on('watch', function(action, filepath) {
   grunt.log.writeln(filepath + ' has ' + action);
 });
-</code></pre>
+```
 
 Now Gruntfile.js looks like this (check out the plugin documentation for configuration).
 
-<pre><code data-language="javascript">
+```javascript
 module.exports = function(grunt) {
 
 	grunt.initConfig({
@@ -317,20 +317,20 @@ module.exports = function(grunt) {
 	});
 
 }
-</code></pre>
+```
 
 Now on you will just need to run "grunt watch" so every time you change something in the files set up to watch will run the task "build"
 
-<pre><code data-language="ruby">
+```ruby
 grunt watch
-</code></pre>
+```
 
 and this is what you should see after run the command
 
-<pre><code data-language="ruby">
+```ruby
 Running "watch" task
 Waiting...
-</code></pre>
+```
 
 To stop watch press "control + c" 
 

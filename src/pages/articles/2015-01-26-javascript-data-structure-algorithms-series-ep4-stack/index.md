@@ -7,7 +7,7 @@ description: Let's talk about Pringles tube today..I meant Stack data structure 
 
 <div class="intro-series">
     <strong>Be advised!</strong> <br> 
-    This post is part of the series: Data Structures and Algorithms with JS therefore before continue to read I suggest you <a href="/blog/javascript-data-structure-algorithms-series-ep1/" title="Data Structures and Algorithms Ep.1">the introduction</a> to this series of posts if you haven't read yet. thanks.
+    This post is part of the series: Data Structures and Algorithms with JS therefore before continue to read I suggest you <a href="/articles/2014-08-06-javascript-data-structure-algorithms-series-ep1/" title="Data Structures and Algorithms Ep.1">the introduction</a> to this series of posts if you haven't read yet. thanks.
 </div>
 
 Let's talk about Pringles tube today..I meant Stack data structure another ADT used to solve problems
@@ -29,7 +29,7 @@ Therefore..
 
 That being said lets get our bellies full. I mean. our hands dirty (WAT).
 
-<pre><code data-language="javascript">
+```javascript
 /**
  * Stack constructor
  * @class Stack
@@ -113,7 +113,7 @@ pringles.debug({
   list: true,
   peek: true
 })
-</code></pre>
+```
 
 More examples to come on how to use Stacks but for now this was the Ep.4 about Data Structures and Algorithms - Stacks.
 

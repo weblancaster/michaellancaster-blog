@@ -27,13 +27,13 @@ It's very simple to use you are going to need to pass one of the positions (belo
 - "afterbegin" (insert inside element after begin)
 - "beforeend" (insert inside element before end)
 
-<pre><code data-language="javascript">
+```javascript
 element.insertAdjacentHTML("position", "content");
-</code></pre>
+```
 
 Let's say we have a method that do the job for us when we pass the "position" and "content".
 
-<pre><code data-language="javascript">
+```javascript
 (function(window) {
 	window.App = window.App || {};
 
@@ -54,7 +54,7 @@ App.insertElement('beforebegin', content1);
 App.insertElement('afterbegin', content2);
 App.insertElement('beforeend', content3);
 App.insertElement('afterend', content4);
-</code></pre>
+```
 
 Here's a example how it works <a href="http://jsfiddle.net/ftZyn/2/" target="_blank" title="how insertAdjacentHTMl works">link</a>.
 

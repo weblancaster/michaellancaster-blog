@@ -45,22 +45,22 @@ Remember I'm using the <a href="https://github.com/mckelvey/instagram-node-lib" 
 
 ### Basic setup
 
-<pre><code data-language="javascript">
+```javascript
 Instagram.set('client_id', clientID);
 Instagram.set('client_secret', clientSecret);
 Instagram.set('callback_url', 'http://YOUR_URL.COM/callback');
 Instagram.set('redirect_uri', 'http://YOUR_URL.com');
-</code></pre>
+```
 
 ### The Handshake
 
 The <a href="http://en.wikipedia.org/wiki/Transmission_Control_Protocol" target="" title="Handshake">Handshake</a> is the confirmation connection between the servers.
 
-<pre><code data-language="javascript">
+```javascript
 app.get('/callback', function(req, res){
     var handshake =  Instagram.subscriptions.handshake(req, res);
 });
-</code></pre>
+```
 
 ### First load
 
@@ -69,7 +69,7 @@ Here I request the latest shared pictures on Instagram with hashtag #lollapalooz
 
 Server sends the data to the client side.
 
-<pre><code data-language="javascript">
+```javascript
 io.sockets.on('connection', function (socket) {
   Instagram.tags.recent({ 
       name: 'lollapalooza',
@@ -78,11 +78,11 @@ io.sockets.on('connection', function (socket) {
       }
   });
 });
-</code></pre>
+```
 
 On my method "mostRecent" the Socket.io on the client receives the data and parse/process using client side templating (HandlebarsJs) and append to the Application showing the latest pictures shared on Instagram.
 
-<pre><code data-language="javascript">
+```javascript
 mostRecent: function() {
     socket.on('firstShow', function (data) {
         var
@@ -95,13 +95,13 @@ mostRecent: function() {
         imgWrap.html(result);
     });
 },
-</code></pre>
+```
 
 ### Subscribing to hashtags
 
 To receive the last updates from Instagram as real time first I needed to subscribe to the hashtags.
 
-<pre><code data-language="javascript">
+```javascript
 Instagram.subscriptions.subscribe({
   object: 'tag',
   object_id: 'lollapalooza',
@@ -110,7 +110,7 @@ Instagram.subscriptions.subscribe({
   type: 'subscription',
   id: '#'
 });
-</code></pre>
+```
 
 ### Real time "time"
 
@@ -121,7 +121,7 @@ Another thing is that you can receive 5000 "notifications" per hour and if you p
 
 Here I send the url to the client side to make the Ajax request but theres another way to do it which is access the json response from Instagram "notification" on the server and get the last image to send to the client.
 
-<pre><code data-language="javascript">
+```javascript
 app.post('/callback', function(req, res) {
     var data = req.body;
 
@@ -136,11 +136,11 @@ app.post('/callback', function(req, res) {
 function sendMessage(url) {
   io.sockets.emit('show', { show: url });
 }
-</code></pre>
+```
 
 On the client side I receive the data "url" and do Ajax request then I call my method to render the client side template.
 
-<pre><code data-language="javascript">
+```javascript
 getData: function() {
     var self = this;
     socket.on('show', function(data) {
@@ -155,15 +155,15 @@ getData: function() {
         }); 
     });
 }
-</code></pre>
+```
 
 ### How to unsubscribe
 
 To unsubscribe is easy it just need the tag "ID" and done.
 
-<pre><code data-language="javascript">
+```javascript
 Instagram.subscriptions.unsubscribe({ id: '#######' });
-</code></pre>
+```
 
 ### Final thoughts
 

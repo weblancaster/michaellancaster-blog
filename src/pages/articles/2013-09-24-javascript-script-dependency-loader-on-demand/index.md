@@ -24,7 +24,7 @@ My goal here is to make the Web Application faster therefore <strong> download s
 
 Below is the code to make the "magic" happen..just a few lines of code.
 
-<pre><code data-language="javascript">
+```javascript
 /*!
  * Jet.js (Micro-library)
  * Version: 0.3
@@ -122,25 +122,25 @@ Below is the code to make the "magic" happen..just a few lines of code.
     });
 
 })(window);
-</code></pre>
+```
 
 ### how to use
 
 Define what are the widgets you want to use on that page (on body element).
 
-<pre><code data-language="html">
+```html
 < body data-ui-widget="widget-jquery widget-cycle" >
-</code></pre>
+```
 
 include Jet.js on your page
 
-<pre><code data-language="html">
+```html
 <script src="js/jet.min.js"></script>
-</code></pre>
+```
 
 I would suggest you create a JS file which has all your widgets been called.
 
-<pre><code data-language="javascript">
+```javascript
 // Cycle
 var dependency1 = new Jet.App;
     dependency1.init('widget-cycle', 'http://malsup.github.io/jquery.cycle.all.js', function() {
@@ -149,7 +149,7 @@ var dependency1 = new Jet.App;
             fx: 'fade'
         });
     });
-</code></pre>
+```
 
 Done!
 

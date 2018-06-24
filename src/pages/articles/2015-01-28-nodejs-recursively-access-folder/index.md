@@ -8,7 +8,7 @@ description: A very quick post on how to access folders recursively with Node.js
 A very quick post on how to access folders recursively with Node.js. <br>
 This code was taken from Grunt.js src code with a slight change made by myself.
 
-<pre><code data-language="javascript">
+```javascript
 var fs = require('fs');
 var path = require('path');
 
@@ -36,11 +36,11 @@ function walk(rootdir, callback, subdir) {
   });
 };
 
-</code></pre>
+```
 
 How to use?
 
-<pre><code data-language="javascript">
+```javascript
 walk('./pathTofolder', function(filepath, rootdir, subdir, filename) {
   console.log('Filepath', filepath);
 });

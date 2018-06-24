@@ -53,7 +53,7 @@ We will be using the BDD interface which provide **describe()**, **context()** (
 <br>**Spies** <br>
 The word basically describe what the concept means, you spy on a function and then you can assert if the function was called, how many times was called, what the parameters was called with and what was returned.
 
-<pre><code data-language="javascript">
+```javascript
 context('Spy', function() {
     it('spy on a function', function() {
         var addSpy = sinon.spy(add());
@@ -65,12 +65,12 @@ context('Spy', function() {
         addSpy.reset(); // reset spy to it's normal state
     });
 });
-</code></pre>
+```
 
 **Stubs** <br>
 This concept is used to isolate a function from the rest of the App, stubs are going to take place of the component and return consistent results making easier to write tests, stubs are also spies.
 
-<pre><code data-language="javascript">
+```javascript
 context('Stub', function() {
     it('stub function', function() {
         var result;
@@ -87,12 +87,12 @@ context('Stub', function() {
         isTruthyStub.reset(); // reset spy to it's normal state
     })
 });
-</code></pre>
+```
 
 **Mocks** <br>
 Mocks are very similar to spies and stubs with the difference you need to define all things that need to happen before you assert and when you are done with all the actions defined you then assert everything happened as planned/defined.
 
-<pre><code data-language="javascript">
+```javascript
  context('Mock', function() {
     it('mock function', function() {
         var multiplyMock = sinon.mock(obj);
@@ -104,7 +104,7 @@ Mocks are very similar to spies and stubs with the difference you need to define
         multiplyMock.verify();
     });
 });
-</code></pre>
+```
 
 ### Setup
 

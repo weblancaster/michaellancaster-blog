@@ -13,15 +13,15 @@ This is a technique of positioning a element inside of another using "position: 
 
 ##HTML
 
-<pre><code data-language="html">
+```html
 <div class="fluidMedia">
 	<iframe src="" frameborder="0"> </iframe>
 </div>
-</code></pre>
+```
 
 ##CSS
 
-<pre><code data-language="css">
+```css
 .fluidMedia {
 	position: relative;
 	padding-bottom: 56.25%; /* proportion value to aspect ratio 16:9 (9 / 16 = 0.5625 or 56.25%) */
@@ -37,9 +37,9 @@ This is a technique of positioning a element inside of another using "position: 
 	width: 100%;
 	height: 100%;
 }
-</code></pre>
+```
 
-Example <a href="/blog/secrets-of-lea-verou-css/" title="fluid iframe example">here</a>.
+Example <a href="/artilces/secrets-of-lea-verou-css/" title="fluid iframe example">here</a>.
 
 ##Browser support
 

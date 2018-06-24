@@ -1,13 +1,16 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import moment from 'moment';
-import Disqus from '../Disqus/Disqus';
 import './style.scss';
 
 class PostTemplateDetails extends React.Component {
   render() {
     const { subtitle, author } = this.props.data.site.siteMetadata;
-    const post = this.props.data.markdownRemark;
+    const {
+      frontmatter: { title },
+      date,
+      html
+    } = this.props.data.markdownRemark;
 
     const homeBlock = (
       <div>
@@ -20,10 +23,10 @@ class PostTemplateDetails extends React.Component {
         {homeBlock}
         <div className="post-single">
           <div className="post-single__inner">
-            <h1 className="post-single__title">{post.frontmatter.title}</h1>
-            <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
+            <h1 className="post-single__title">{title}</h1>
+            <div className="post-single__body" dangerouslySetInnerHTML={{ __html: html }} />
             <div className="post-single__date">
-              <em>Published {moment(post.frontmatter.date).format('D MMM YYYY')}</em>
+              <em>Published {moment(date).format('D MMM YYYY')}</em>
             </div>
           </div>
           <div className="post-single__footer">

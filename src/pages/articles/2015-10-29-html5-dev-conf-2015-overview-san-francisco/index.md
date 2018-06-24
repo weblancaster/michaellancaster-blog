@@ -50,7 +50,7 @@ His talk resumes to learn from your errors and deal with them preserving and add
 
 there is two kinds of errors we face, expected and not expected where when in Node we have a "best practice" to call callback with error where at some point we might deal with that.
 
-<pre><code data-language="javascript">
+```javascript
 function foo(cb) {
     service.get('movies', function(err, data) {
         if (err) {
@@ -59,7 +59,7 @@ function foo(cb) {
         return cb(null, data);
     });
 }
-</code></pre>
+```
 
 Some of the modules him and his team have been using are <a href="https://github.com/davepacheco/node-verror" target="_blank" title="node-verror">Verror</a> where will combine errors while preserving each one's error message and for wrapping errors. Another module is <a href="https://github.com/restify/errors" target="_blank" title="Restify-errors">Restify-errors</a> has a collection of HTTP and REST Error constructors.
 

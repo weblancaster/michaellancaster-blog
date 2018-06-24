@@ -28,7 +28,7 @@ Our scenario: validate fields when form is submitted.
 
 First things first... Let's create our class called `Validator` and also create our constructor called as method `constructor` which is responsible to setup our basic data.
 
-<pre><code data-language="Javascript">
+```javascript
 ;(function(window, undefined) {
   
   var Validator = {
@@ -41,11 +41,11 @@ First things first... Let's create our class called `Validator` and also create 
   }
   
 })(window, undefined);
-</code></pre>
+```
 
 Now let's create our initializer called `init` and initialize the program adding a listener to the form using the info/data was passed to our constructor. <br>
 
-<pre><code data-language="Javascript">
+```javascript
 ;(function(window, undefined) {
   
   var Validator = {
@@ -71,13 +71,13 @@ Now let's create our initializer called `init` and initialize the program adding
   }
   
 })(window, undefined);
-</code></pre>
+```
 
 The method called `addFormListener` does what it's named.. we add a listener to the form to when submitted trigger a method and also chain a method called `bind` which call the method `this.validate` with the context of the class instead of send the object clicked `form`.
 
 The example below we are going add the method to `validate` which is responsible to test against the field requirement `required`, `empty` or `maxlength` and then add a CSS class to the input field.
 
-<pre><code data-language="Javascript">
+```javascript
 ;(function(window, undefined) {
   
   var Validator = {
@@ -118,11 +118,11 @@ The example below we are going add the method to `validate` which is responsible
   }
   
 })(window, undefined);
-</code></pre>
+```
 
 We simply create a new object which are going to inherit directly from our class/object and call the constructor passing the `form ID` and an Object containing an Object called `fields` which contain all fields that need to be validate with our requirements `required` and `maxlength`.
 
-<pre><code data-language="Javascript">
+```javascript
 var form1 = Object.create(Validator);
 form1.constructor('#form1', {
   fields: {
@@ -135,11 +135,11 @@ form1.constructor('#form1', {
     }
   }
 });
-</code></pre>
+```
 
 As a reference the HTML markup looks like this.
 
-<pre><code data-language="html">
+```html
 <form id="form1">
     <fieldset>
         <legend>Person</legend>
@@ -154,7 +154,7 @@ As a reference the HTML markup looks like this.
         <input type="submit" name="submit" class="submit" value="Submit" />
     </fieldset>
 </form>
-</code></pre>
+```
 
 Note that we can use a different design pattern to just the `constructor` method be accessible, but let's keep it simple. <br>
 Also note that in ES6 this OO Approach are going to very clear on how to use the API.
