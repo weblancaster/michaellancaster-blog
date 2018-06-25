@@ -7,9 +7,7 @@ description: Quick blog post to show you how to easily add the feature goto or j
 
 Quick blog post to show you how to easily add the feature goto or jump to definition on Sublime text 3 with custom shortcut
 
-<div class="fluidImg">
-    <img src="/assets/images/post-images/st3-goto-definition.gif" alt="Sublime Text 3 jump to definition/method">
-</div>
+![Sublime Text 3 jump to definition/method](./st3-goto-definition.gif)
 
 ## Simple steps
 
@@ -19,7 +17,7 @@ Sublime Text -> Preferences -> Key Bindings - User
 ```
 
 You can add any shortcut you want since it's not in use already so you don't overwrite the default shortcut settings.
-<br>
+
 In my case I decided to use "shift+command+m"..as below.
 
 ```javascript

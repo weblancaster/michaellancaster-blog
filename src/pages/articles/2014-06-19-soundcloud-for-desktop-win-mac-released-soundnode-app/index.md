@@ -5,12 +5,11 @@ title: Soundnode App - Soundcloud for desktop released
 description: Soundnode App - The Soundcloud for desktop beta released!
 ---
 
-Soundnode App - The Soundcloud for desktop beta released! <br>
-That being said you download the best version to your computer <a href="http://www.soundnodeapp.com" target="_blank" title="Soundnode App - Soundcloud for desktop">here</a> and <strong>out of the box</strong> click, authenticate your user and start to listen to songs.
+Soundnode App - The Soundcloud for desktop beta released!
 
-<div class="fluidImg">
-    <img src="/assets/images/post-images/soundenode-0-1-0.png" alt="Sublime Text 3 jump to definition/method">
-</div>
+That being said you download the best version to your computer <a href="http://www.soundnodeapp.com" target="_blank" title="Soundnode App - Soundcloud for desktop">here</a> and __out of the box__ click, authenticate your user and start to listen to songs.
+
+![Soundnode App - The Soundcloud for desktop beta released!](./soundenode-0-1-0.png)
 
 ## Current Features
 

@@ -9,11 +9,7 @@ description: So there was I at Battlehack Chicago brainstorming ideas...
 
 So there was I at <a href="https://2015.battlehack.org/" title="Battlehack Chicago" target="_blank">Battlehack</a> Chicago brainstorming ideas...trying to come up with something I would have fun developing and at the same time learn something new.
 
-<div class="fluidImg">
-    <img src="/assets/images/post-images/battlehack-02.jpg" alt="Battlehack Chicago 2015">
-</div>
-
-<br>
+![Battlehack Chicago 2015](./battlehack-02.jpg)
 
 After teaming up with <a href="https://josephmilla.com/" title="Joseph Milla" target="_blank">Joseph Milla</a> a young and smart CS student, After discussing what we should do we decided to build something related to IoT so we ended up using my <a href="https://tessel.io/" title="Tessel IoT" target="_blank">Tessel</a>micro-controller and the Tessel Ambient module.
 

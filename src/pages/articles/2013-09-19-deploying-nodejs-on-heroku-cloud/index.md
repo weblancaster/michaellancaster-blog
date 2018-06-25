@@ -19,14 +19,10 @@ I have four web apps hosted on heroku but two are for public access this blog/po
 
 ## Why Node.js
 
-It's Javascript...on the Server!
+Javascript is well known by us Front End Developers/Engineers.
 
-<iframe src="http://giphy.com/embed/13k1e8OMVO2a3K" frameBorder="0" allowFullScreen="allowFullScreen"></iframe>
+That's already one good reason but the main "real" reasons are Node.js is all about making event-driven (Ajax can be done on the server side), low-latency, non-blocking I/O...perfect for real time.
 
-<br>
-
-No, But seriously. Javascript is well known by us Front End Developers/Engineers and even designers. <br>
-That's already one good reason but the main "real" reasons are Node.js is all about making event-driven (Ajax can be done on the server side), low-latency, non-blocking I/O...perfect for real time. <br>
 Node.js makes a much smaller footprint on your web server It allocates web server resources on an as-needed basis, not pre-allocating a large chunk of resources for each user. For example, Apache might assign 8MB to a user, while Node assigns 8KB.
 
 ## Heroku set up
@@ -74,11 +70,7 @@ You can access your Web App url on www.your-app-name.heroku.com
 
 Oh wait! What is this?
 
-<div class="fluidImg">
-<img src="/assets/images/post-images/heroku-404.png" alt="Heroku 404">
-</div>
-
-<br>
+![heroku 404](./heroku-404.png)
 
 To make your Web App run on Heroku you need to run your Web App in one of those languages I said right on the beginning of this post.
 
@@ -97,11 +89,7 @@ sudo npm install -g
 Enter your password.
 You should see something like the image below.. notice that not every log is showed on the image..
 
-<div class="fluidImg">
-<img src="/assets/images/post-images/success-image.png" alt="success image">
-</div>
-
-<br>
+![success image](./success-image.png)
 
 All Node dependencies are installed and now you can start run your server.
 
@@ -126,11 +114,7 @@ grunt build
 
 This is the message you should get.
 
-<div class="fluidImg">
-<img src="/assets/images/post-images/grunt-build.png" alt="grunt build">
-</div>
-
-<br>
+![Grunt build](./grunt-build.png)
 
 But still not quite good enough because we would need to build every time we did any change.
 So let's start to watch for changes on the files.
@@ -141,11 +125,7 @@ grunt watch
 
 Now every time you do any change and save the file grunt you build automatically.
 
-<div class="fluidImg">
-<img src="/assets/images/post-images/grunt-watch.png" alt="grunt watch">
-</div>
-
-<br>
+![Grunt watch](./grunt-watch.png)
 
 Ok. That's pretty cool right?!.
 
@@ -167,11 +147,7 @@ git push origin master
 
 and this is what happened..
 
-<div class="fluidImg">
-<img src="/assets/images/post-images/no-support.png" alt="no support">
-</div>
-
-<br>
+![no support](./no-support.png)
 
 If you read the message you will see "Push rejected, no Cedar-supported app detected" so let's add support to make this baby work..
 Every Web App on Heroku needs a file to tell Heroku what are we deploying..
@@ -184,19 +160,11 @@ Then you need to activate your server and tell Heroku to run 1 "Cedar" (one ceda
 heroku ps:scale web=1
 ```
 
-<div class="fluidImg">
-<img src="/assets/images/post-images/cedar.png" alt="no support">
-</div>
-
-<br>
+![no support](./cedar.png)
 
 Repeat the push process.. after do the push process again "git add ." "git commit" and "git push origin master" a bunch of message will log and the final logs would be like this image below.. now you can access your Web App URL in my case is <a href="http://deployed-nodejs-app.herokuapp.com/" title="my how to deploy node.js to Heroku post" target="_blank">deployed-nodejs-app</a>.
 
-<div class="fluidImg">
-<img src="/assets/images/post-images/pushed.png" alt="Web app deployed">
-</div>
-
-<br>
+![Web app deployed](./pushed.png)
 
 And this is how we deploy Node.js to Heroku.. fast and easy.
 
