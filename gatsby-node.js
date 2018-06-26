@@ -69,7 +69,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({ node, getNode, basePath: 'pages' });
-    const date = node.frontmatter.date || slug.substring(slug.indexOf('-') - 4, slug.indexOf('-') + 6).replace(/-/g, ' ');
+    const date = node.frontmatter.date || slug.substring(slug.indexOf('-') - 4, slug.indexOf('-') + 6)
 
     createNodeField({
       node,
@@ -80,7 +80,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({
       node,
       name: 'date',
-      value: date.replace(' ', '-')
+      value: date
     });
   }
 };
