@@ -80,7 +80,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({
       node,
       name: 'date',
-      value: date
+      value: date.replace(' ', '-')
     });
   }
 };

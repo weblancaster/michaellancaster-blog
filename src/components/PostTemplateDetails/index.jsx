@@ -26,7 +26,7 @@ class PostTemplateDetails extends React.Component {
             <h1 className="post-single__title">{title}</h1>
             <div className="post-single__body" dangerouslySetInnerHTML={{ __html: html }} />
             <div className="post-single__date">
-              <em>Published {moment(`${date}`).format('D MMM YYYY')}</em>
+              <em>Published {moment(date, 'YYYY-MM-DD').format('D MMM YYYY')}</em>
             </div>
           </div>
           <div className="post-single__footer">
