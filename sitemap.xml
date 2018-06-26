@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>http://www.bymichaellancaster.com/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-01-30-first-things-first/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-02-26-lets-talk-about-rem-units/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-01-30-what-technologies-im-using-to-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-02-25-two-years-ago-everything-started/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-02-27-the-filter-bubble-and-your-social-life-online/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-03-03-secrets-of-lea-verou-css/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-02-28-inspirational-art-and-code-by-joshua-davis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-03-12-fluid-iframe-and-images-without-javascript-plugins/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-03-08-css-architecture-for-web-applications/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-04-06-from-san-francisco-to-the-brazilian-developers-community/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-08-25-tonights-inspiration/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-06-01-introduction-to-task-runner-gruntjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-09-09-how-i-built-lollagram-lollapalooza-instagram-real-time-api/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-09-19-deploying-nodejs-on-heroku-cloud/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-09-24-javascript-script-dependency-loader-on-demand/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-01-06-why-i-like-gulpjs-more-than-gruntjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-12-12-playstation4-alert-using-best-buy-api-nodejs-socketio-nedb/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-10-15-we-are-influenced-by-people/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-11-01-css-bad-and-good-practices-good-tips/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-03-03-sublime-text-3-jump-to-definition-custom-shortcut/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-01-08-DOM-insert-html-method-you-might-not-know-about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-02-26-web-and-automotive-w3c-group/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2013-12-10-chicago-through-instagram-chicagogram-us/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-06-19-soundcloud-for-desktop-win-mac-released-soundnode-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-05-13-soundnode-soundcloud-for-desktop-dev-release/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-08-06-javascript-data-structure-algorithms-series-ep1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-07-30-speaking-at-front-in-bh-conference-2014/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-08-25-javascript-object-oriented-simple-form-validation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-11-04-migrate-jekyll-to-ghost-built-with-nodejs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-09-03-javascript-data-structure-algorithms-series-ep2-arrays/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-01-11-javascript-data-structure-algorithms-series-ep3-lists/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2014-11-21-murphys-law-for-programming-programmers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-01-28-nodejs-recursively-access-folder/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-01-26-javascript-data-structure-algorithms-series-ep4-stack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-05-12-intro-to-reactjs-or-what-you-should-know-html5-chicago-meetup/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-05-21-soundnode-the-soundcloud-for-desktop-and-its-10-k-plus-downloads/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-07-01-iot-javascript-battlehack-tessel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-08-12-client-side-javascript-unit-tests-for-front-end-developers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2015-10-29-html5-dev-conf-2015-overview-san-francisco/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/articles/2016-11-19-javascript-data-structure-algorithms-series-ep5-binary-search/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://www.bymichaellancaster.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>

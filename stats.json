@@ -1,0 +1,224 @@
+{
+  "assetsByChunkName": {
+    "path---articles-2014-01-06-why-i-like-gulpjs-more-than-gruntjs": [
+      "path---articles-2014-01-06-why-i-like-gulpjs-more-than-gruntjs-272f8229a98b63613ce3.js",
+      "path---articles-2014-01-06-why-i-like-gulpjs-more-than-gruntjs-272f8229a98b63613ce3.js.map"
+    ],
+    "component---src-templates-page-template-jsx": [
+      "component---src-templates-page-template-jsx-c8f944425cd9d5b8606f.js",
+      "component---src-templates-page-template-jsx-c8f944425cd9d5b8606f.js.map"
+    ],
+    "path---articles-2013-11-01-css-bad-and-good-practices-good-tips": [
+      "path---articles-2013-11-01-css-bad-and-good-practices-good-tips-39d20c0499fd557116e5.js",
+      "path---articles-2013-11-01-css-bad-and-good-practices-good-tips-39d20c0499fd557116e5.js.map"
+    ],
+    "path---articles-2013-10-15-we-are-influenced-by-people": [
+      "path---articles-2013-10-15-we-are-influenced-by-people-2a2929c965b8be1ae7a7.js",
+      "path---articles-2013-10-15-we-are-influenced-by-people-2a2929c965b8be1ae7a7.js.map"
+    ],
+    "path---articles-2013-08-25-tonights-inspiration": [
+      "path---articles-2013-08-25-tonights-inspiration-48f120b73e1fc9bec7f1.js",
+      "path---articles-2013-08-25-tonights-inspiration-48f120b73e1fc9bec7f1.js.map"
+    ],
+    "path---articles-2013-02-25-two-years-ago-everything-started": [
+      "path---articles-2013-02-25-two-years-ago-everything-started-fa48941d007ad7c3bf16.js",
+      "path---articles-2013-02-25-two-years-ago-everything-started-fa48941d007ad7c3bf16.js.map"
+    ],
+    "path---articles-2013-02-28-inspirational-art-and-code-by-joshua-davis": [
+      "path---articles-2013-02-28-inspirational-art-and-code-by-joshua-davis-3b4142989c8b799de12a.js",
+      "path---articles-2013-02-28-inspirational-art-and-code-by-joshua-davis-3b4142989c8b799de12a.js.map"
+    ],
+    "path---articles-2013-04-06-from-san-francisco-to-the-brazilian-developers-community": [
+      "path---articles-2013-04-06-from-san-francisco-to-the-brazilian-developers-community-c326f44361f6383450d4.js",
+      "path---articles-2013-04-06-from-san-francisco-to-the-brazilian-developers-community-c326f44361f6383450d4.js.map"
+    ],
+    "path---articles-2015-10-29-html-5-dev-conf-2015-overview-san-francisco": [
+      "path---articles-2015-10-29-html-5-dev-conf-2015-overview-san-francisco-dca1968e8c6c63bda736.js",
+      "path---articles-2015-10-29-html-5-dev-conf-2015-overview-san-francisco-dca1968e8c6c63bda736.js.map"
+    ],
+    "path---articles-2015-01-26-javascript-data-structure-algorithms-series-ep-4-stack": [
+      "path---articles-2015-01-26-javascript-data-structure-algorithms-series-ep-4-stack-0978164eee41029acbad.js",
+      "path---articles-2015-01-26-javascript-data-structure-algorithms-series-ep-4-stack-0978164eee41029acbad.js.map"
+    ],
+    "path---articles-2014-07-30-speaking-at-front-in-bh-conference-2014": [
+      "path---articles-2014-07-30-speaking-at-front-in-bh-conference-2014-53c9cffd524740355007.js",
+      "path---articles-2014-07-30-speaking-at-front-in-bh-conference-2014-53c9cffd524740355007.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---articles-2013-02-26-lets-talk-about-rem-units": [
+      "path---articles-2013-02-26-lets-talk-about-rem-units-309ac8a7daee485713ef.js",
+      "path---articles-2013-02-26-lets-talk-about-rem-units-309ac8a7daee485713ef.js.map"
+    ],
+    "path---articles-2015-07-01-iot-javascript-battlehack-tessel": [
+      "path---articles-2015-07-01-iot-javascript-battlehack-tessel-2d45c149010dda211d16.js",
+      "path---articles-2015-07-01-iot-javascript-battlehack-tessel-2d45c149010dda211d16.js.map"
+    ],
+    "path---articles-2014-11-04-migrate-jekyll-to-ghost-built-with-nodejs": [
+      "path---articles-2014-11-04-migrate-jekyll-to-ghost-built-with-nodejs-e8bfa0734f7779882f96.js",
+      "path---articles-2014-11-04-migrate-jekyll-to-ghost-built-with-nodejs-e8bfa0734f7779882f96.js.map"
+    ],
+    "path---articles-2013-09-24-javascript-script-dependency-loader-on-demand": [
+      "path---articles-2013-09-24-javascript-script-dependency-loader-on-demand-a8c85310f97447b1b2c7.js",
+      "path---articles-2013-09-24-javascript-script-dependency-loader-on-demand-a8c85310f97447b1b2c7.js.map"
+    ],
+    "path---articles-2013-03-08-css-architecture-for-web-applications": [
+      "path---articles-2013-03-08-css-architecture-for-web-applications-b8e886e31ebd5acc1ac0.js",
+      "path---articles-2013-03-08-css-architecture-for-web-applications-b8e886e31ebd5acc1ac0.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-dd8f9f65fe5909e6dcd8.js",
+      "component---src-layouts-index-jsx-dd8f9f65fe5909e6dcd8.js.map"
+    ],
+    "path---articles-2014-03-03-sublime-text-3-jump-to-definition-custom-shortcut": [
+      "path---articles-2014-03-03-sublime-text-3-jump-to-definition-custom-shortcut-069d3030748b0be25850.js",
+      "path---articles-2014-03-03-sublime-text-3-jump-to-definition-custom-shortcut-069d3030748b0be25850.js.map"
+    ],
+    "path---articles-2014-02-26-web-and-automotive-w-3-c-group": [
+      "path---articles-2014-02-26-web-and-automotive-w-3-c-group-2104e1a20baa223525ec.js",
+      "path---articles-2014-02-26-web-and-automotive-w-3-c-group-2104e1a20baa223525ec.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---articles-2013-12-10-chicago-through-instagram-chicagogram-us": [
+      "path---articles-2013-12-10-chicago-through-instagram-chicagogram-us-6de6603b3095ea190137.js",
+      "path---articles-2013-12-10-chicago-through-instagram-chicagogram-us-6de6603b3095ea190137.js.map"
+    ],
+    "component---src-templates-post-template-jsx": [
+      "component---src-templates-post-template-jsx-933d034c93f2d7dcdc70.js",
+      "component---src-templates-post-template-jsx-933d034c93f2d7dcdc70.js.map"
+    ],
+    "path---articles-2013-06-01-introduction-to-task-runner-gruntjs": [
+      "path---articles-2013-06-01-introduction-to-task-runner-gruntjs-d97023bc46c58413db7e.js",
+      "path---articles-2013-06-01-introduction-to-task-runner-gruntjs-d97023bc46c58413db7e.js.map"
+    ],
+    "path---articles-2013-03-03-secrets-of-lea-verou-css": [
+      "path---articles-2013-03-03-secrets-of-lea-verou-css-81c466831c6321d69952.js",
+      "path---articles-2013-03-03-secrets-of-lea-verou-css-81c466831c6321d69952.js.map"
+    ],
+    "path---articles-2014-06-19-soundcloud-for-desktop-win-mac-released-soundnode-app": [
+      "path---articles-2014-06-19-soundcloud-for-desktop-win-mac-released-soundnode-app-3bf88a6d542750b5ca0d.js",
+      "path---articles-2014-06-19-soundcloud-for-desktop-win-mac-released-soundnode-app-3bf88a6d542750b5ca0d.js.map"
+    ],
+    "path---articles-2014-08-25-javascript-object-oriented-simple-form-validation": [
+      "path---articles-2014-08-25-javascript-object-oriented-simple-form-validation-28ee547e4b263a00f155.js",
+      "path---articles-2014-08-25-javascript-object-oriented-simple-form-validation-28ee547e4b263a00f155.js.map"
+    ],
+    "path---index": [
+      "path---index-4d9877e290e50aced78d.js",
+      "path---index-4d9877e290e50aced78d.js.map"
+    ],
+    "path---articles-2015-05-21-soundnode-the-soundcloud-for-desktop-and-its-10-k-plus-downloads": [
+      "path---articles-2015-05-21-soundnode-the-soundcloud-for-desktop-and-its-10-k-plus-downloads-6388a9626236de6a70c9.js",
+      "path---articles-2015-05-21-soundnode-the-soundcloud-for-desktop-and-its-10-k-plus-downloads-6388a9626236de6a70c9.js.map"
+    ],
+    "path---articles-2014-11-21-murphys-law-for-programming-programmers": [
+      "path---articles-2014-11-21-murphys-law-for-programming-programmers-051c6fbaf8268458ec58.js",
+      "path---articles-2014-11-21-murphys-law-for-programming-programmers-051c6fbaf8268458ec58.js.map"
+    ],
+    "path---articles-2013-09-09-how-i-built-lollagram-lollapalooza-instagram-real-time-api": [
+      "path---articles-2013-09-09-how-i-built-lollagram-lollapalooza-instagram-real-time-api-be4f4a44cc6c248b4482.js",
+      "path---articles-2013-09-09-how-i-built-lollagram-lollapalooza-instagram-real-time-api-be4f4a44cc6c248b4482.js.map"
+    ],
+    "commons": [
+      "commons-634c5c5d9297f6ebe288.js",
+      "build-js-styles.css",
+      "commons-634c5c5d9297f6ebe288.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---articles-2013-01-30-what-technologies-im-using-to-blog": [
+      "path---articles-2013-01-30-what-technologies-im-using-to-blog-a2628d5996f97c4bdb5b.js",
+      "path---articles-2013-01-30-what-technologies-im-using-to-blog-a2628d5996f97c4bdb5b.js.map"
+    ],
+    "path---articles-2013-02-27-the-filter-bubble-and-your-social-life-online": [
+      "path---articles-2013-02-27-the-filter-bubble-and-your-social-life-online-9799f318312123decdde.js",
+      "path---articles-2013-02-27-the-filter-bubble-and-your-social-life-online-9799f318312123decdde.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-f4aa936cbcd44ea916a8.js",
+      "path---404-html-f4aa936cbcd44ea916a8.js.map"
+    ],
+    "component---src-pages-404-jsx": [
+      "component---src-pages-404-jsx-4561180b8b20c5cb34bf.js",
+      "component---src-pages-404-jsx-4561180b8b20c5cb34bf.js.map"
+    ],
+    "path---articles-2014-08-06-javascript-data-structure-algorithms-series-ep-1": [
+      "path---articles-2014-08-06-javascript-data-structure-algorithms-series-ep-1-d78f23ae76e6260bf49e.js",
+      "path---articles-2014-08-06-javascript-data-structure-algorithms-series-ep-1-d78f23ae76e6260bf49e.js.map"
+    ],
+    "path---articles-2013-12-12-playstation-4-alert-using-best-buy-api-nodejs-socketio-nedb": [
+      "path---articles-2013-12-12-playstation-4-alert-using-best-buy-api-nodejs-socketio-nedb-fe13da74cec52bf2612f.js",
+      "path---articles-2013-12-12-playstation-4-alert-using-best-buy-api-nodejs-socketio-nedb-fe13da74cec52bf2612f.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-8f9f4a3918fd483b537a.js",
+      "component---src-pages-index-jsx-8f9f4a3918fd483b537a.js.map"
+    ],
+    "path---articles-2015-01-11-javascript-data-structure-algorithms-series-ep-3-lists": [
+      "path---articles-2015-01-11-javascript-data-structure-algorithms-series-ep-3-lists-e609b9c0896e6facdd07.js",
+      "path---articles-2015-01-11-javascript-data-structure-algorithms-series-ep-3-lists-e609b9c0896e6facdd07.js.map"
+    ],
+    "app": [
+      "app-7053ff3940e7c4f80114.js",
+      "build-js-styles.css",
+      "app-7053ff3940e7c4f80114.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---articles-2013-01-30-first-things-first": [
+      "path---articles-2013-01-30-first-things-first-098eeda30b9e7bd961c8.js",
+      "path---articles-2013-01-30-first-things-first-098eeda30b9e7bd961c8.js.map"
+    ],
+    "path---articles-2013-03-12-fluid-iframe-and-images-without-javascript-plugins": [
+      "path---articles-2013-03-12-fluid-iframe-and-images-without-javascript-plugins-be05af1361a16f00e57b.js",
+      "path---articles-2013-03-12-fluid-iframe-and-images-without-javascript-plugins-be05af1361a16f00e57b.js.map"
+    ],
+    "path---articles-2015-01-28-nodejs-recursively-access-folder": [
+      "path---articles-2015-01-28-nodejs-recursively-access-folder-d4d4d0c5eac484b34dcd.js",
+      "path---articles-2015-01-28-nodejs-recursively-access-folder-d4d4d0c5eac484b34dcd.js.map"
+    ],
+    "path---articles-2014-01-08-dom-insert-html-method-you-might-not-know-about": [
+      "path---articles-2014-01-08-dom-insert-html-method-you-might-not-know-about-3f2885a16c78a58d0e52.js",
+      "path---articles-2014-01-08-dom-insert-html-method-you-might-not-know-about-3f2885a16c78a58d0e52.js.map"
+    ],
+    "path---articles-2014-05-13-soundnode-soundcloud-for-desktop-dev-release": [
+      "path---articles-2014-05-13-soundnode-soundcloud-for-desktop-dev-release-2090f5308927bac8082d.js",
+      "path---articles-2014-05-13-soundnode-soundcloud-for-desktop-dev-release-2090f5308927bac8082d.js.map"
+    ],
+    "path---articles-2014-09-03-javascript-data-structure-algorithms-series-ep-2-arrays": [
+      "path---articles-2014-09-03-javascript-data-structure-algorithms-series-ep-2-arrays-ef0da9523987da1efdef.js",
+      "path---articles-2014-09-03-javascript-data-structure-algorithms-series-ep-2-arrays-ef0da9523987da1efdef.js.map"
+    ],
+    "path---404": [
+      "path---404-f4aa936cbcd44ea916a8.js",
+      "path---404-f4aa936cbcd44ea916a8.js.map"
+    ],
+    "path---articles-2013-09-19-deploying-nodejs-on-heroku-cloud": [
+      "path---articles-2013-09-19-deploying-nodejs-on-heroku-cloud-3ca82e05b0b557a1344e.js",
+      "path---articles-2013-09-19-deploying-nodejs-on-heroku-cloud-3ca82e05b0b557a1344e.js.map"
+    ],
+    "path---articles-2016-11-19-javascript-data-structure-algorithms-series-ep-5-binary-search": [
+      "path---articles-2016-11-19-javascript-data-structure-algorithms-series-ep-5-binary-search-f0c787815653a5c61051.js",
+      "path---articles-2016-11-19-javascript-data-structure-algorithms-series-ep-5-binary-search-f0c787815653a5c61051.js.map"
+    ],
+    "path---articles-2015-08-12-client-side-javascript-unit-tests-for-front-end-developers": [
+      "path---articles-2015-08-12-client-side-javascript-unit-tests-for-front-end-developers-8b3d8725fff3a26f4a14.js",
+      "path---articles-2015-08-12-client-side-javascript-unit-tests-for-front-end-developers-8b3d8725fff3a26f4a14.js.map"
+    ],
+    "path---about": [
+      "path---about-2e0adede9d1e25fee15d.js",
+      "path---about-2e0adede9d1e25fee15d.js.map"
+    ],
+    "path---articles-2015-05-12-intro-to-reactjs-or-what-you-should-know-html-5-chicago-meetup": [
+      "path---articles-2015-05-12-intro-to-reactjs-or-what-you-should-know-html-5-chicago-meetup-8e277cffcee2d954bc5c.js",
+      "path---articles-2015-05-12-intro-to-reactjs-or-what-you-should-know-html-5-chicago-meetup-8e277cffcee2d954bc5c.js.map"
+    ]
+  }
+}

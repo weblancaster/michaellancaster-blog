@@ -1,0 +1,2 @@
+webpackJsonp([0xa2868bfb69fc],{436:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Blog by Michael Lancaster",subtitle:"Software Engineer focused in Javascript applications",copyright:"© All rights reserved.",menu:[{label:"Articles",path:"/"},{label:"About me",path:"/about/"}],author:{name:"Michael Lancaster",twitter:"weblancaster",github:"weblancaster"}}}},pathContext:{}}}});
+//# sourceMappingURL=path---404-html-f4aa936cbcd44ea916a8.js.map
