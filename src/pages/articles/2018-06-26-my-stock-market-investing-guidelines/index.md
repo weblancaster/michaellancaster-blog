@@ -71,8 +71,8 @@ Another great way to know if a company is good for the long term. If the company
 ### Other tips
 
 * My favorite tool [Stock Master](https://itunes.apple.com/us/app/stock-master-realtime-stocks/id591644846?mt=8)
-* Look for trends all around or a tool like Google trend [https://trends.google.com/trends/](https://trends.google.com/trends/)
-* Look at the company filings form and get down to the finance fundamentals [https://trends.google.com/trends/](https://www.bamsec.com/), [https://www.sec.gov/edgar/searchedgar/webusers.htm](https://www.sec.gov/edgar/searchedgar/webusers.htm)
+* Look for trends all around you or a tool like Google trend [https://trends.google.com/trends/](https://trends.google.com/trends/)
+* Look at the company filings form and get down to the finance fundamentals [https://www.bamsec.com/](https://www.bamsec.com/), [https://www.sec.gov/edgar/searchedgar/webusers.htm](https://www.sec.gov/edgar/searchedgar/webusers.htm)
 * For quick and easy digestion of data [https://www.nasdaq.com/symbol/](https://www.nasdaq.com/symbol/)
 * For articles, reviews and reading [https://www.investopedia.com/](https://www.investopedia.com/)
 
