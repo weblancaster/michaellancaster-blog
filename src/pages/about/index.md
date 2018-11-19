@@ -5,11 +5,11 @@ path: "/about"
 date: "2013-02-27"
 ---
 
-My name is Michael Lancaster. 28. Born in Brasil but moved to US (I have dual citizenship USA and Brazilian) when I was 21 to follow my goals. Now living in Costa Mesa - CA, before San Francisco - CA.
+My name is Michael Lancaster. 28. Born in Brasil but moved to US (I have dual citizenship USA and Brazilian) when I was 21 to follow my goals.
 
-I'm a Software Engineer Manager at currently at [Cylance](https://www.cylance.com/en-us/index.html)
+Currently I'm a Software Engineer Manager at [Cylance](https://www.cylance.com/en-us/index.html), Now living in Costa Mesa - CA.
 
-My spare time I use to learn and build new things such as [Soundnode](http://www.soundnodeapp.com/) (featured on Product Hunt, TheNextWeb, Gizmodo, etc), [Solshal](http://www.solshal.com/) besides contributing to open source projects here and there on [Github](http://www.github.com/weblancaster).
+My spare time I use to learn and build new things such as [Soundnode](http://www.soundnodeapp.com/) (featured on Product Hunt, TheNextWeb, Gizmodo, etc) and [Solshal](http://www.solshal.com/) besides contributing to open source projects here and there on [Github](http://www.github.com/weblancaster).
 
 I have also given a couple talks:
 - [Docker](https://speakerdeck.com/weblancaster/docker-but-im-a-frontend?slide=1) FrontInBH conference (Belo Horizonte - Brazil, 2017)
